@@ -39,7 +39,7 @@ function start() {
                             function (error) {
                                 if (error) throw error;
                                 console.log("You have purchased your item, we will " +
-                                    "deliver it in your dreams");
+                                    "deliver it in your dreams. O and you owe us $" + response[i].price);
 
                             }
                         )
